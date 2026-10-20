@@ -1,0 +1,29 @@
+name: arrowsrush_3d
+description: "Arrows 3D: Puzzle Master — A spatial logic puzzle game."
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.0
+  equatable: ^2.0.0
+  hive_flutter: ^1.1.0
+  google_mobile_ads: ^5.0.0
+  audioplayers: ^6.0.0
+  google_fonts: ^6.0.0
+  connectivity_plus: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/
+    - assets/icons/
